@@ -55,6 +55,21 @@
     });
   });
 
+  // Add "Pedinos más casos" trigger
+  const pedinosMasCasosBtn = Array.from(document.querySelectorAll('.home_work_item')).find(item => {
+    const h3 = item.querySelector('h3');
+    return h3 && h3.textContent.includes('Pedinos más casos');
+  });
+  if (pedinosMasCasosBtn) {
+    pedinosMasCasosBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      // reset motive to default placeholder for generic triggers
+      const motiveSelect = document.getElementById('contact-motivo');
+      if (motiveSelect) motiveSelect.value = '';
+      openModal(); // Sin parámetro para mensaje general
+    });
+  }
+
   // Preselect motive when clicking plan CTAs
   const motiveSelect = document.getElementById('contact-motivo');
   const planLandingBtn = document.querySelector('.plans_component .plan_card:nth-child(1) .plan_cta a');
