@@ -1,10 +1,10 @@
-# Resumen del Proyecto: Adaptación de Template para Vitamina Digital
+# Resumen del Proyecto: Adaptación de Template para Vitamina Digital Tech
 
-Este documento resume la información clave para la tarea de adaptar un template web HTML, traduciendo y personalizando su contenido para la agencia "Vitamina Digital".
+Este documento resume la información clave para la tarea de adaptar un template web HTML, traduciendo y personalizando su contenido para la agencia "Vitamina Digital Tech".
 
 ## 1. Información de la Empresa
 
--   **Nombre:** Vitamina Digital
+-   **Nombre:** Vitamina Digital Tech
 -   **URL:** `vitaminadigital.tech`
 -   **Ubicación:** Buenos Aires, Argentina.
 -   **Tono de Voz:** Profesional pero cercano y moderno. Usar español rioplatense.
@@ -50,4 +50,4 @@ Se deben mostrar 3 proyectos destacados para demostrar la experiencia de la agen
 
 -   **Material de Origen:** Plantilla "Kinetiq" de Flow Samurai (Webflow), exportada a código HTML, CSS y JavaScript.
 -   **Acción Principal:** Tomar el template HTML en inglés y reemplazar todo el texto de ejemplo.
--   **Contenido:** El nuevo contenido debe reflejar la información de Vitamina Digital detallada en este documento.
+-   **Contenido:** El nuevo contenido debe reflejar la información de Vitamina Digital Tech detallada en este documento.

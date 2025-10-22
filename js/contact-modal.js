@@ -28,7 +28,7 @@
           message = 'Hola! Me interesa cotizar para Software y Automatizaciones. ¿Podemos conversar sobre mi proyecto?';
           break;
         default:
-          message = 'Hola! Me interesa conocer más sobre los servicios de Vitamina Digital. ¿Podemos conversar?';
+          message = 'Hola! Me interesa conocer más sobre los servicios de Vitamina Digital Tech. ¿Podemos conversar?';
       }
       
       const encodedMessage = encodeURIComponent(message);
