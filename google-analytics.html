@@ -1,0 +1,35 @@
+<!-- Google Analytics 4 (GA4) -->
+<!-- Reemplaza 'G-XXXXXXXXXX' con tu ID de Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-29V85NFBDE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX', {
+    'custom_map': {'dimension1': 'user_type'},
+    'send_page_view': true
+  });
+</script>
+
+<!-- Google Tag Manager -->
+<!-- Reemplaza 'GTM-XXXXXXX' con tu ID de Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+
+<!-- Instrucciones para configurar Google Analytics y GTM:
+1. Crea una cuenta en Google Analytics: https://analytics.google.com/
+2. Crea una propiedad para vitaminadigital.tech
+3. Obtén tu ID de medición (G-XXXXXXXXXX)
+4. Reemplaza 'G-XXXXXXXXXX' en el código de arriba
+5. Para Google Tag Manager, crea una cuenta en: https://tagmanager.google.com/
+6. Obtén tu ID de contenedor (GTM-XXXXXXX)
+7. Reemplaza 'GTM-XXXXXXX' en el código de arriba
+8. Agrega estos códigos en el <head> del index.html, justo antes del </head>
+
+También necesitarás agregar el código de GTM en el <body>:
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+-->
