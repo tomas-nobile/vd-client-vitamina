@@ -64,7 +64,7 @@
    - Nombre: Vitamina Digital Tech
    - Dirección: Necochea 698, Ramos Mejía, Buenos Aires
    - Teléfono: +54 9 11 6900-8951
-   - Email: vitaminadigital.tech@gmail.com
+   - Email: info@vitaminadigital.tech
    - Horarios: Lunes a Viernes 9:00-18:00
 3. Sube fotos del local/oficina
 4. Solicita reseñas de clientes
