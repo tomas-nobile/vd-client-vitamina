@@ -25,7 +25,7 @@
           message = 'Hola! Me interesa el plan de Website Premium. ¿Podemos conversar sobre los detalles?';
           break;
         case 'other':
-          message = 'Hola! Me interesa cotizar para Software y Automatizaciones. ¿Podemos conversar sobre mi proyecto?';
+          message = 'Hola! Me interesa cotizar para Software, Ecommerce y Automatizaciones. ¿Podemos conversar sobre mi proyecto?';
           break;
         default:
           message = 'Hola! Me interesa conocer más sobre los servicios de Vitamina Digital Tech. ¿Podemos conversar?';
@@ -93,7 +93,7 @@
   if (planOtherBtn) {
     planOtherBtn.addEventListener('click', function(e) {
       e.preventDefault();
-      if (motiveSelect) motiveSelect.value = 'Software y Automatizaciones';
+      if (motiveSelect) motiveSelect.value = 'Software, Ecommerce y Automatizaciones';
       openModal('other');
     });
   }

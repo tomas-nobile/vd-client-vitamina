@@ -1523,10 +1523,11 @@ figcaption {
 .home_services_item-label {
   color: var(--text-color--text-primary);
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   padding: 0;
   display: flex;
+  white-space: normal;
 }
 
 .home_services_icon {
@@ -1550,6 +1551,8 @@ figcaption {
 
 .home_services_title {
   white-space: break-spaces;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .home_services_accordion-pane {
@@ -1564,10 +1567,18 @@ figcaption {
   max-width: 49rem;
   padding-top: 2rem;
   font-size: 1.13rem;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .home_services_accordion {
   position: relative;
+}
+
+@media screen and (min-width: 992px) {
+  .home_services_item-label {
+    align-items: center;
+  }
 }
 
 .home_services_image-wrap {
@@ -2183,18 +2194,36 @@ figcaption {
   .home_services_item {
     padding-top: 2rem;
     padding-bottom: 2rem;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
   }
 
   .home_services_icon-wrapper {
     padding: .75rem;
+    flex-shrink: 0;
+  }
+
+  .home_services_item-label {
+    min-width: 0;
+    gap: .75rem;
   }
 
   .home_services_title-wrap {
-    max-width: 70%;
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: none;
   }
 
   .home_services_image-wrap {
     display: none;
+  }
+
+  .home_services_accordion-pane {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    overflow: visible;
   }
 
   .home_testimony_content {
@@ -2254,6 +2283,11 @@ figcaption {
 @media screen and (max-width: 767px) {
   h4 {
     line-height: 1.4;
+  }
+
+  .padding-global {
+    padding-left: max(.75rem, 5%, env(safe-area-inset-left, 0px));
+    padding-right: max(.75rem, 5%, env(safe-area-inset-right, 0px));
   }
 
   .hide-mobile-landscape {
@@ -2568,16 +2602,35 @@ figcaption {
   .home_services_item {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
   }
 
   .home_services_icon-wrapper {
     padding: 1rem;
+    flex-shrink: 0;
   }
 
   .home_services_title-wrap {
-    grid-column-gap: 2rem;
-    grid-row-gap: 2rem;
-    max-width: 60%;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: none;
+  }
+
+  .home_services_accordion-pane {
+    padding-left: 0;
+    padding-right: 0;
+    overflow: visible;
+  }
+
+  .home_services_text {
+    max-width: none;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .home_testimony_content {
@@ -2765,8 +2818,14 @@ figcaption {
   }
 
   .home_services_icon-wrapper {
-    width: 4rem;
-    height: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: .75rem;
+  }
+
+  .home_services_title-wrap {
+    grid-column-gap: .75rem;
+    grid-row-gap: .75rem;
   }
 
   .home_testimony_quote {
