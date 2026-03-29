@@ -1,4 +1,4 @@
-# Guía de SEO para Vitamina Digital Tech
+# Guía de SEO para Vitamina Digital
 
 ## ✅ Optimizaciones Implementadas
 
@@ -61,7 +61,7 @@
 ### 3. Google My Business
 1. Crea un perfil en https://business.google.com/
 2. Agrega la información de la empresa:
-   - Nombre: Vitamina Digital Tech
+   - Nombre: Vitamina Digital
    - Dirección: Necochea 698, Ramos Mejía, Buenos Aires
    - Teléfono: +54 9 11 6900-8951
    - Email: info@vitaminadigital.tech
