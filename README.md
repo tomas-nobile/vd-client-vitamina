@@ -22,7 +22,7 @@ Este documento resume la información clave para la tarea de adaptar un template
 
 ## 3. Planes y Precios
 
--   **Landing Page:** $15.000 ARS por mes.
+-   **Landing Page:** $20.000 ARS por mes.
 -   **Website Premium:** $50.000 ARS por mes.
 -   **Otros Servicios (UX/UI, Branding, etc.):** Precio personalizado a convenir. Se debe invitar a contactar para cotización.
 
