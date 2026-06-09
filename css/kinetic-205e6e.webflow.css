@@ -1464,12 +1464,13 @@ figcaption {
 
 .plan_price-main {
   white-space: nowrap;
+  font-size: .9rem;
 }
 
 .plan_price-sub {
   opacity: .75;
   font-weight: 500;
-  font-size: .85rem;
+  font-size: .8rem;
 }
 
 .plan_description {
